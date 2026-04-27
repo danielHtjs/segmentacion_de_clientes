@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Variables de entorno
+.env
+.env.*
+
+# Datos sensibles (no subir al repo)
+data/raw/*.csv
+data/processed/*.csv
+
+# Reportes generados (se regeneran con el notebook)
+reports/figures/*.png
+reports/figures/*.jpg
+reports/resultados/*.csv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Flask
+instance/
+*.sqlite
+
+# Modelos entrenados (pueden ser pesados)
+models/*.pkl
+models/*.joblib
